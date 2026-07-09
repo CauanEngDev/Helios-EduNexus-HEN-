@@ -13,7 +13,7 @@ import java.util.UUID;
 @Getter(AccessLevel.PUBLIC)
 @Setter(AccessLevel.PUBLIC)
 @EqualsAndHashCode(of = "id")
-public abstract class Identificator {
+public abstract class  1Identificator {
     @Id @Setter(AccessLevel.NONE)
     protected UUID id = UUID.randomUUID();
 
